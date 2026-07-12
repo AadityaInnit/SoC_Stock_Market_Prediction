@@ -1,16 +1,16 @@
 # Stock Price Forecasting with LSTM
 
-This project implements stock market forecasting with an LSTM model using Python, yfinance, pandas, NumPy, matplotlib, scikit-learn, and TensorFlow. The notebook prompts the user for a stock ticker, start date, end date, and data interval at runtime, then downloads historical market data with `yfinance.download()` using `start`, `end`, and `interval` parameters.[cite:17][cite:33]
+This project implements stock market forecasting with an LSTM model using Python, yfinance, pandas, NumPy, matplotlib, scikit-learn, and TensorFlow. The notebook prompts the user for a stock ticker, start date, end date, and data interval at runtime, then downloads historical market data with `yfinance.download()` using `start`, `end`, and `interval` parameters.
 
 ## Features
 
-- Downloads historical stock data from Yahoo Finance.[cite:17]
-- Uses user-defined runtime inputs for ticker, start date, end date, and interval.[cite:17][cite:33]
-- Visualizes adjusted close price over time.[cite:28][cite:33]
-- Computes technical indicators including MACD, RSI, SMA, and Bollinger Bands.[cite:9][cite:34]
-- Normalizes features and creates 60-step sliding windows for LSTM training.[cite:9]
-- Trains an LSTM model with TensorFlow/Keras for time-series prediction.[cite:9]
-- Predicts the next 15 time units and evaluates performance using RMSE, MAE, and R-squared.[cite:9]
+- Downloads historical stock data from Yahoo Finance.
+- Uses user-defined runtime inputs for ticker, start date, end date, and interval.
+- Visualizes adjusted close price over time.
+- Computes technical indicators including MACD, RSI, SMA, and Bollinger Bands.
+- Normalizes features and creates 60-step sliding windows for LSTM training.
+- Trains an LSTM model with TensorFlow/Keras for time-series prediction.
+- Predicts the next 15 time units and evaluates performance using RMSE, MAE, and R-squared.
 
 ## Technical Indicators
 
@@ -67,15 +67,15 @@ Higher R-squared values generally indicate that the model explains more variance
 
 ## GitHub Submission
 
-GitHub’s documented flow is to create a new repository from the **New repository** menu, assign a repository name and visibility, and then upload or push the notebook, README, and generated files.[cite:10][cite:32]
+GitHub’s documented flow is to create a new repository from the **New repository** menu, assign a repository name and visibility, and then upload or push the notebook, README, and generated files.
 
 ### Web upload method
 
 1. Sign in to GitHub.
-2. Click the `+` button and choose **New repository**.[cite:10]
-3. Enter the repository name and optional description, choose visibility, and create the repository.[cite:10]
-4. Open the repository and choose **Upload files** to add the notebook, README, CSV outputs, and any saved visualizations.[cite:32]
-5. Add a commit message and commit the changes.[cite:32]
+2. Click the `+` button and choose **New repository**.
+3. Enter the repository name and optional description, choose visibility, and create the repository.
+4. Open the repository and choose **Upload files** to add the notebook, README, CSV outputs, and any saved visualizations.
+5. Add a commit message and commit the changes.
 
 ### Git method
 
